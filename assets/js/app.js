@@ -5,9 +5,9 @@ buttonToTop.addEventListener("click", () => {
 })
 
 window.addEventListener("scroll", {} => {
-    if(window.scrollY >= 200) {
+    if(window.scrollY <= 200) {
         buttonToTop.classList.add("d-none")
     } else {
-
+    buttonToTop.classList.remove("d-none")
     }
 })
