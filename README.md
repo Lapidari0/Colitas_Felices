@@ -1,0 +1,1 @@
+Se agregó la funcionalidad de scroll suave.s
